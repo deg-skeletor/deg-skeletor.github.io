@@ -43,11 +43,13 @@ That's it! Depending on the project, other tasks (such as `skel watch` or `skel 
 #### Manual configuration
 Skeletor Core is just a delegator, which means it doesn't do a whole lot on its own. To make it useful, it needs:
 
-##### Plugins. A typical Skeletor plugin does one thing and one thing well. That one thing could be anything. There are already plugins for file copying, PostCSS, Pattern Lab, Express, Rollup, and more. Go on, [have a look](https://github.com/deg-skeletor/).
+##### Plugins.
+A typical Skeletor plugin does one thing and one thing well. That one thing could be anything. There are already plugins for file copying, PostCSS, Pattern Lab, Express, Rollup, and more. Go on, [have a look](https://github.com/deg-skeletor/).
 
 Plugins can be installed by listing them as [devDependencies](https://docs.npmjs.com/files/package.json#devdependencies) in your project's `package.json` file. Any plugins listed here will be installed to the project during an `npm install`.
 
-##### Configuration. Skeletor needs a configuration object to tell it what tasks and subtasks to run (based on the plugins you've installed), and how those tasks should work.
+##### Configuration.
+Skeletor needs a configuration object to tell it what tasks and subtasks to run (based on the plugins you've installed), and how those tasks should work.
 
 
 #### Automatic configuration via Skeletor Wizard
