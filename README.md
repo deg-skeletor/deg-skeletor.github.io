@@ -16,7 +16,7 @@
 ### What is Skeletor?
 Skeletor is a highly customizable UI build tool ecosystem, created and maintained by the [DEG](http://www.degdigital.com) UI team. 
 
-On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is just the task runner of the bunch (albeit a very configurable one, if we do say so ourselves). When configured to use its [robust family of plugins and command line tools](#ecosystem-overview), it can easily handle the heavy lifting of almost any UI build process, including:
+On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is just the task runner of the bunch (albeit a very flexible and powerful one, if we do say so ourselves). When configured to use its [robust family of plugins and command line tools](#ecosystem-overview), it can easily handle the heavy lifting of almost any UI build process, including:
 
 * Static site templating and generation
 * CSS preprocessing
