@@ -1,7 +1,7 @@
 # Skeletor: modern, modular UI build tools
 
 ## Table of Contents
-  1. [Getting started](#getting-started) 
+  1. [Getting started](#getting-started)  
     - [What is Skeletor?](#what-is-skeletor) 
     - [Installation](#installation)  
   2. [Project setup](#project-setup)  
