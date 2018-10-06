@@ -129,7 +129,7 @@ A sample configuration object might look like the following:
 Yes, there is an auto-configurator called [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) that's in active development. Yes, it kind of works already. No, we would not recommend using it in production quite yet. Sorry, Charlie.
 
 ## Ecosystem overview
-All Skeletor repositories maintained by the DEG UI team are located at https://github.com/deg-skeletor/.
+All Skeletor repositories maintained by the DEG UI team are located at [https://github.com/deg-skeletor/](https://github.com/deg-skeletor/).
 
 ### Nuts and bolts
 * [skeletor-core](https://github.com/deg-skeletor/skeletor-core/)
