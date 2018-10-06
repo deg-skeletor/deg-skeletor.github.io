@@ -17,6 +17,6 @@ In order to run Skeletor from the command line, you'll want to install [Skeletor
 npm install -g @deg-skeletor/cli
 ```
 
-*Hint: you may need to prefix this command with `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this.*
+*Hint: you may need to prefix the command with `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this.*
 
 Skeletor CLI will automatically install Skeletor Core and [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) as dependencies.
