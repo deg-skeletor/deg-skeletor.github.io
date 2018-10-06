@@ -44,12 +44,12 @@ Once a [project has been set up](#project-setup), you can use the following synt
 ```shell
 skel
 ```
-Typing `skel` with no arguments will run the project's configured `build` task, and all of its configured subtasks.
+Typing `skel` with no arguments will run the project's configured `build` task, and all of its configured subtasks. Subtasks will often be language-specific, such as `html`, `css` or `js`.
 
 ```shell
 skel [taskName]
 ```
-Typing `skel [taskName]` will run the specified task. Available tasks will vary based on project configuration, but could include `build`, `serve`, `watch` or `export` tasks.
+Typing `skel [taskName]` will run the specified task, as well as all of its configured subtasks. Available tasks will vary based on project configuration, but could include `build`, `serve`, `watch` or `export`.
 
 ```shell
 skel [taskName] --only [subtaskA,subtaskB]
