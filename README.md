@@ -10,7 +10,15 @@ On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is ju
 * Workflow and static asset management
 * Local server/middleware creation 
 
+## Table of Contents
+  1. [Getting started](#getting-started)
+    - [Installation](#installation)
+    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)
+    - [Starting a new Skeletor project](#starting-a-new-skeletor-project)
+
 ## Getting started
+
+### Installation
 In order to run Skeletor from the command line, you'll want to install [Skeletor CLI](https://github.com/deg-skeletor/skeletor-cli) globally:
 
 ```shell
@@ -20,3 +28,6 @@ npm install -g @deg-skeletor/cli
 *Hint: you may need to prefix the command with `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this.*
 
 Skeletor CLI will automatically install Skeletor Core and [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) as dependencies.
+
+### Working with an existing Skeletor project
+### Starting a new Skeletor project
