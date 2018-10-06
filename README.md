@@ -49,17 +49,17 @@ Typing `skel` with no arguments will run the project's configured `build` task, 
 ```shell
 skel [taskName]
 ```
-Typing `skel [taskName]` will run the specified task. Available tasks will vary based on project configuration, but could include `build`, `serve` or `watch` tasks.
+Typing `skel [taskName]` will run the specified task. Available tasks will vary based on project configuration, but could include `build`, `serve`, `watch` or `export` tasks.
 
 ```shell
 skel [taskName] --only [subtaskA,subtaskB]
 ```
-Typing `skel [taskName]` with the `--only` flag will only run the specified subtasks configured for the given task. For example, `skel build --only html,css` would only build HTML and CSS files, but would not build JavaScript files, even if this is a configured subtask.
+Typing `skel [taskName]` with the `--only` flag will only run the specified subtasks configured for the given task. For example, `skel export --only html,css` would only export HTML and CSS files, but would not export JavaScript files, even if this is a configured subtask of the `export` task.
 
 ```shell
 skel [taskName] --except [subtaskA,subtaskB]
 ```
-Typing `skel [taskName]` with the `--except` flag will run all configured subtasks, except for the specified subtask. For example, `skel build --except css` would build HTML and JavaScript files (assuming those are the configured subtasks), but would not build CSS files, even if this is a configured subtask.
+Typing `skel [taskName]` with the `--except` flag will run all configured subtasks, except for the specified subtask. For example, `skel build --except css` would build HTML and JavaScript files (assuming those are the configured subtasks of the `build` task), but would not build CSS files, even if this is a configured subtask.
 
 ## Project setup
 
