@@ -70,7 +70,6 @@ All Skeletor repositories maintained by the DEG UI team are located at https://g
 ### Utilities
 * [skeletor-plugin-watch](https://github.com/deg-skeletor/skeletor-plugin-watch/)
 * [skeletor-plugin-express](https://github.com/deg-skeletor/skeletor-plugin-express/)
-* [skeletor-plugin-copy](https://github.com/deg-skeletor/skeletor-plugin-copy/)
 
 ### Language-specific plugins
 * HTML/Static site generators
@@ -81,6 +80,8 @@ All Skeletor repositories maintained by the DEG UI team are located at https://g
 * JavaScript
   - [skeletor-plugin-rollup](https://github.com/deg-skeletor/skeletor-plugin-rollup/)
   - [skeletor-plugin-jspm](https://github.com/deg-skeletor/skeletor-plugin-jspm/)
+* Static assets
+  - [skeletor-plugin-copy](https://github.com/deg-skeletor/skeletor-plugin-copy/)
 
 ### Developer tools
 * [skeletor-sample-project](https://github.com/deg-skeletor/skeletor-sample-project/)
