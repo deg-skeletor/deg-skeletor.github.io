@@ -17,6 +17,6 @@ In order to run Skeletor from the command line, you'll want to install [Skeletor
     npm install -g @deg-skeletor/cli
 ```
 
-*(Hint: you may need to type `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this.)*
+*Hint: you may need to type `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this.*
 
 Skeletor CLI will automatically 
