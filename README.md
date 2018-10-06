@@ -4,6 +4,7 @@
   1. [Getting started](#getting-started)  
     - [What is Skeletor?](#what-is-skeletor)  
     - [Installation](#installation)  
+    - [Using the CLI](#using-the-cli)  
   2. [Project setup](#project-setup)  
     - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)  
     - [Starting a new Skeletor project](#starting-a-new-skeletor-project)  
@@ -35,6 +36,14 @@ npm install -g @deg-skeletor/cli
 ```
 
 *Hint: you may need to prefix this command with `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows).*
+
+### Using the CLI
+Once a [project has been set up](#project-setup), you can use the following syntax in the command line to control Skeletor:
+
+```shell
+skel
+```
+Typing `skel` with no arguments will run the project's "build" task
 
 ## Project setup
 
