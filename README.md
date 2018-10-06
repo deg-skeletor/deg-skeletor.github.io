@@ -19,4 +19,4 @@ npm install -g @deg-skeletor/cli
 
 *Hint: you may need to type `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this.*
 
-Skeletor CLI will automatically 
+Skeletor CLI will automatically install Skeletor Core and [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) as dependencies.
