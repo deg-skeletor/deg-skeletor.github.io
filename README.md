@@ -59,7 +59,7 @@ Typing `skel [taskName]` with the `--only` flag will only run the specified subt
 ```shell
 skel [taskName] --except [subtaskA,subtaskB]
 ```
-Typing `skel [taskName]` with the `--except` flag will run all configured subtasks, except for the subtask that's specified. For example, `skel build --except css` would build HTML and JavaScript files (assuming those are the configured subtasks), but would not build CSS files, even if this is a configured subtask.
+Typing `skel [taskName]` with the `--except` flag will run all configured subtasks, except for the specified subtask. For example, `skel build --except css` would build HTML and JavaScript files (assuming those are the configured subtasks), but would not build CSS files, even if this is a configured subtask.
 
 ## Project setup
 
