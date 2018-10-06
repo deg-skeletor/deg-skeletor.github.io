@@ -25,6 +25,8 @@ On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is ju
 * Workflow and static asset management
 * Local server/middleware creation 
 
+Skeletor's modularity and core API means anyone can write and configure their own plugins, too!
+
 ### Installation
 In order to run Skeletor from the command line, you'll want to install [Skeletor CLI](https://github.com/deg-skeletor/skeletor-cli) globally via NPM:
 
