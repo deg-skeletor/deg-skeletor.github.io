@@ -11,10 +11,10 @@ On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is ju
 * Local server/middleware creation 
 
 ## Table of Contents
-  1. [Getting started](#getting-started)
-    - [Installation](#installation)
-    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)
-    - [Starting a new Skeletor project](#starting-a-new-skeletor-project)
+  1. [Getting started](#getting-started)  
+    - [Installation](#installation)  
+    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)  
+    - [Starting a new Skeletor project](#starting-a-new-skeletor-project)  
 
 ## Getting started
 
