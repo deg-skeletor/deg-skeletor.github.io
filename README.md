@@ -2,10 +2,11 @@
 
 ## Table of Contents
   1. [Getting started](#getting-started)  
-    - [What is Skeletor?](#what-is-skeletor) 
+    - [What is Skeletor?](#what-is-skeletor)  
     - [Installation](#installation)  
   2. [Project setup](#project-setup)  
-    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)  - [Starting a new Skeletor project](#starting-a-new-skeletor-project)  
+    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)
+    - [Starting a new Skeletor project](#starting-a-new-skeletor-project)  
       - [Manual configuration](#manual-configuration)
       - [Automatic configuration via Skeletor Wizard](#automatic-configuration-via-skeletor-wizard)
   3. [Ecosystem overview](#ecosystem-overview)
