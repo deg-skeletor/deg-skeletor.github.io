@@ -43,7 +43,22 @@ Once a [project has been set up](#project-setup), you can use the following synt
 ```shell
 skel
 ```
-Typing `skel` with no arguments will run the project's "build" task
+Typing `skel` with no arguments will run the project's "build" task.
+
+```shell
+skel [taskName]
+```
+Typing `skel [taskName]` will run the configured task. Available tasks will vary by project, but may include build, serve or watch tasks.
+
+```shell
+skel [taskName] --only [subtaskA,subtaskB]
+```
+Typing `skel [taskName]` with the `--only` flag will only run the specified subtasks configured for the given task. For example, `skel build --only html,css` would only build HTML and CSS files, but would not build JavaScript files, even if this is a configured subtask.
+
+```shell
+skel [taskName] --except [subtaskA,subtaskB]
+```
+Typing `skel [taskName]` with the `--except` flag will run all configured subtasks, except for the subtask that's given. For example, `skel build --except css` would build HTML and JavaScript files (assuming those subtasks are configured), but would not build CSS files, even if this is a configured subtask.
 
 ## Project setup
 
