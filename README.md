@@ -24,7 +24,8 @@ On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is ju
 * JavaScript package management, transpilation, bundling and loading
 * Image optimization
 * Workflow and static asset management
-* Local server/middleware creation 
+* Linting and testing
+* Local server/middleware hosting 
 
 Skeletor's modularity and core API means anyone can write and configure their own plugins, too!
 
