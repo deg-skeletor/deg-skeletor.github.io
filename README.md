@@ -43,7 +43,7 @@ Once a [project has been set up](#project-setup), you can use the following synt
 ```shell
 skel
 ```
-Typing `skel` with no arguments will run the project's "build" task.
+Typing `skel` with no arguments will run the project's "build" task, and all of its configured subtasks.
 
 ```shell
 skel [taskName]
