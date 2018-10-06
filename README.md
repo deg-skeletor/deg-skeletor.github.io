@@ -13,7 +13,7 @@ On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is ju
 ## Getting started
 In order to run Skeletor from the command line, you'll want to install [Skeletor CLI](https://github.com/deg-skeletor/skeletor-cli) globally:
 
-```javascript
+```shell
 npm install -g @deg-skeletor/cli
 ```
 
