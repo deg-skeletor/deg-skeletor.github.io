@@ -50,13 +50,55 @@ That's it! Depending on the project, other tasks (such as `skel watch` or `skel 
 ### Starting a new Skeletor project
 
 #### Manual configuration
-Skeletor Core is just a delegator, which means it doesn't do a whole lot on its own. To make it useful, it needs:
+Skeletor Core is just a task delegator, which means it doesn't do a whole lot on its own. To make it useful, it needs:
 
 *Plugins.* A typical Skeletor plugin does one thing and one thing well. That one thing could be anything. There are already plugins for file copying, PostCSS, Pattern Lab, Express, Rollup, and more. Go on, [have a look](#ecosystem-overview).
 
 Plugins can be installed by listing them as [devDependencies](https://docs.npmjs.com/files/package.json#devdependencies) in your project's `package.json` file. Any plugins listed here will be installed to the project during an `npm install`.
 
-*Configuration.* Skeletor needs a configuration object (stored in a `skeletor.config.js` file by default) to tell it what tasks and subtasks to run (based on the plugins you've installed), and how those tasks should work.
+*Configuration.* Once plugins have been installed, Skeletor needs a configuration object (stored in a `skeletor.config.js` file by default) to tell it what tasks and subtasks to run, and how those tasks should work.
+
+A Skeletor configuration object consists of an array of `tasks`. A `task` consists of either `plugins` or `subTasks`. A `subTask` is itself a `task` with its own `plugins` or `subTasks` properties.
+
+A sample configuration object might look like the following:
+```js
+{
+    tasks: [
+        {
+            /* a task to build all the code in a project */
+            name: 'build',
+            subTasks: [
+                {
+                    /* a sub-task to build the CSS code */
+                    name: 'css', 
+                    plugins: [
+                        {
+                            /* a plugin to process CSS via PostCSS */
+                            name: '@deg-skeletor/plugin-postcss',
+                            config: {
+                                //Plugin-specific config
+                            }
+                        }
+                    ]
+                },
+                {
+                    /* a sub-task to build static files */
+                    name: 'static',
+                    plugins: [
+                        {
+                            /* a plugin to copy static files from one directory to another */
+                            name: '@deg-skeletor/plugin-copy',
+                            config: {
+                                //Plugin-specific config
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
 
 #### Automatic configuration via Skeletor Wizard
 Yes, there is an auto-configurator called [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) that's in active development. Yes, it kind of works already. No, we would not recommend using it in production quite yet. Sorry, Charlie.
