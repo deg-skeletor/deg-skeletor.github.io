@@ -1,7 +1,7 @@
 title: Skeletor
 description: The bones of your UI build process
-google_analytics: 
-show_downloads: true
+google_analytics: UA-1750291-31
+show_downloads: false
 theme: jekyll-theme-cayman
 
 gems:
