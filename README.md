@@ -5,7 +5,7 @@
     - [What is Skeletor?](#what-is-skeletor)  
     - [Installation](#installation)  
   2. [Project setup](#project-setup)  
-    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)
+    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)  
     - [Starting a new Skeletor project](#starting-a-new-skeletor-project)  
       - [Manual configuration](#manual-configuration)
       - [Automatic configuration via Skeletor Wizard](#automatic-configuration-via-skeletor-wizard)
