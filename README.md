@@ -48,7 +48,7 @@ Typing `skel` with no arguments will run the project's "build" task, and all of 
 ```shell
 skel [taskName]
 ```
-Typing `skel [taskName]` will run the configured task. Available tasks will vary by project, but may include build, serve or watch tasks.
+Typing `skel [taskName]` will run the configured task. Available tasks will vary based on project configuration, but could include `build`, `serve` or `watch` tasks.
 
 ```shell
 skel [taskName] --only [subtaskA,subtaskB]
