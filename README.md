@@ -9,3 +9,10 @@ On its own, [Skeletor Core](https://github.com/deg-skeletor/skeletor-core) is ju
 * Image optimization
 * Workflow and static asset management
 * Local server/middleware creation 
+
+## Getting started
+In order to run Skeletor from the command line, you'll want to install [Skeletor CLI](https://github.com/deg-skeletor/skeletor-cli) globally:
+
+```npm install -g @deg-skeletor/cli```
+
+*(Hint: you may need to type `sudo` (Mac OS, \*nix, etc.) or run your command shell as Administrator (Windows) to do this)*
