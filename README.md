@@ -6,10 +6,10 @@
     - [Installation](#installation)  
     - [Using the CLI](#using-the-cli)  
   2. [Project setup](#project-setup)  
-    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)  
     - [Starting a new Skeletor project](#starting-a-new-skeletor-project)  
+      - [Automatic configuration via Orko](#automatic-configuration-via-orko)
       - [Manual configuration](#manual-configuration)
-      - [Automatic configuration via Skeletor Wizard](#automatic-configuration-via-skeletor-wizard)
+    - [Working with an existing Skeletor project](#working-with-an-existing-skeletor-project)  
   3. [Ecosystem overview](#ecosystem-overview)
 
 ## Getting started
@@ -63,16 +63,10 @@ Typing `skel [taskName]` with the `--except` flag will run all configured subtas
 
 ## Project setup
 
-### Working with an existing Skeletor project
-Assuming the project has been set up with proper `package.json` and `skeletor.config.js` configurations, it's easy to start up an existing Skeletor project:
-
-1. Change to the project's root directory (i.e., the directory that contains the project's `package.json` directory).
-2. Type `npm install` to install project dependencies.
-3. Type `skel` to run the project's "build" task.
-
-That's it! Depending on the project, other tasks (such as `skel watch` or `skel serve`) or subtasks (i.e., CSS or JavaScript-specific subtasks) may also already be configured. But because Skeletor is modular, this will vary from project to project. Consult its `skeletor.config.js` file to know for sure.
-
 ### Starting a new Skeletor project
+
+#### Automatic configuration via Orko
+Orko is the scaffolding tool for Skeletor. By running Orko at the beginning of a project, you can build out an entire Skeletor-enabled UI project, preconfigured to work with the platform of your choice. All Orko documentation can be found on its [GitHub page](https://github.com/deg-skeletor/orko).
 
 #### Manual configuration
 Skeletor Core is just a task delegator, which means it doesn't do a whole lot on its own. To make it useful, it needs:
@@ -125,8 +119,14 @@ A sample configuration object might look like the following:
 }
 ```
 
-#### Automatic configuration via Skeletor Wizard
-Yes, there is an auto-configurator called [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) that's in active development. Yes, it kind of works already. No, we would not recommend using it in production quite yet. Sorry, Charlie.
+### Working with an existing Skeletor project
+Assuming the project has been set up with proper `package.json` and `skeletor.config.js` configurations, it's easy to start up an existing Skeletor project:
+
+1. Change to the project's root directory (i.e., the directory that contains the project's `package.json` directory).
+2. Type `npm install` to install project dependencies.
+3. Type `skel` to run the project's "build" task.
+
+That's it! Depending on the project, other tasks (such as `skel watch` or `skel serve`) or subtasks (i.e., CSS or JavaScript-specific subtasks) may also already be configured. But because Skeletor is modular, this will vary from project to project. Consult its `skeletor.config.js` file to know for sure.
 
 ## Ecosystem overview
 All Skeletor repositories maintained by the DEG UI team are located at [https://github.com/deg-skeletor/](https://github.com/deg-skeletor/).
