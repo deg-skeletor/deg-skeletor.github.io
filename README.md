@@ -44,7 +44,7 @@ Once a [project has been set up](#project-setup), you can use the following synt
 ```shell
 skel
 ```
-Typing `skel` with no arguments will run the project's configured `build` task, and all of its configured subtasks. Subtasks will often be language-specific, such as `html`, `css` or `js`.
+By default, typing `skel` with no arguments will run the first task in the config file's `tasks` array, and all of its configured subtasks. Subtasks will often be language-specific, such as `html`, `css` or `js`. The default task can be configured by adding `isDefaultTask: true` to the task you'd like to be default.
 
 ```shell
 skel [taskName]
